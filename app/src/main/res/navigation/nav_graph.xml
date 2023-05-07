@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/threadFragment">
+
+    <fragment
+        android:id="@+id/threadFragment"
+        android:name="com.example.eleventhpractice.fragments.ThreadFragment"
+        android:label="fragment_thread"
+        tools:layout="@layout/fragment_thread" />
+    <fragment
+        android:id="@+id/viewModelFragment"
+        android:name="com.example.eleventhpractice.fragments.ViewModelFragment"
+        android:label="fragment_view_model"
+        tools:layout="@layout/fragment_view_model" />
+    <fragment
+        android:id="@+id/asyncTaskFragment"
+        android:name="com.example.eleventhpractice.fragments.AsyncTaskFragment"
+        android:label="fragment_async_task"
+        tools:layout="@layout/fragment_async_task" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.eleventhpractice.fragments.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+</navigation>

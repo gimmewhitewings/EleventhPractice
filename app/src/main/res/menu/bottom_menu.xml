@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/threadFragment"
+        android:icon="@drawable/t"
+        android:title="@string/thread" />
+    <item
+        android:id="@+id/viewModelFragment"
+        android:icon="@drawable/vm"
+        android:title="@string/viewmodel" />
+    <item
+        android:id="@+id/asyncTaskFragment"
+        android:icon="@drawable/at"
+        android:title="@string/asynctask" />
+    <item
+        android:id="@+id/webViewFragment"
+        android:icon="@drawable/wv"
+        android:title="@string/webview" />
+</menu>
